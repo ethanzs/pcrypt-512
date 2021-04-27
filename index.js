@@ -120,3 +120,9 @@ function pcrypt(pt, X, Y) {
 function hashCompare(pt, hash) {
     return fromBytes(pcrypt(pt, PRIVATE_KEY, PUBLIC_KEY)) == hash;
 }
+
+export default {
+  pcrypt: pcrypt,
+  hashCompare: hashCompare
+}
+
