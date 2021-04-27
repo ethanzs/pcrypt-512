@@ -5,9 +5,15 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 127",
+    "build": "echo \"No External Dependencies Required\" && exit 128",
+    "run": "echo \"No Run-Scripts Configured\" && exit 129"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ethanzs/pcrypt-512.git"
+  }
 }
