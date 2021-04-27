@@ -5,9 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 127",
-    "build": "echo \"No External Dependencies Required\" && exit 128",
-    "run": "echo \"No Run-Scripts Configured\" && exit 129"
+    "test": "echo \"Error: No Test(s) Established\" && exit 128",
+    "build": "echo \"No External Dependencies Required\" && exit 129",
+    "run": "echo \"No Run-Scripts Configured\" && exit 130"
   },
   "keywords": [],
   "author": "",
